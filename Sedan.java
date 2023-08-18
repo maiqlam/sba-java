@@ -9,9 +9,9 @@ public class Sedan extends Car {
     @Override
     double getSalePrice() {
         if (length > 20) {
-            return this.regularPrice * .95;
+            return regularPrice * .95;
         } else {
-            return this.regularPrice * .90;
+            return regularPrice * .90;
         }
     }
 }

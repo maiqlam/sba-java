@@ -10,6 +10,6 @@ public class Ford extends Car {
 
     @Override
     double getSalePrice() {
-        return this.regularPrice - this.manufacturerDiscount;
+        return regularPrice - manufacturerDiscount;
     }
 }

@@ -8,10 +8,10 @@ public class Truck extends Car {
 
     @Override
     double getSalePrice() {
-        if(this.weight > 2000) {
-            return this.regularPrice * .90;
+        if(weight > 2000) {
+            return regularPrice * .90;
         } else {
-            return this.regularPrice * .80;
+            return regularPrice * .80;
         }
     }
 }
